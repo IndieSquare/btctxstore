@@ -4,7 +4,7 @@ import io
 from future.moves.urllib.parse import urlencode
 from future.moves.urllib.request import urlopen
 from future.moves.urllib.error import HTTPError
-from pycoin.block import BlockHeader
+from pycoin.block import Block
 from pycoin.convention import btc_to_satoshi
 from pycoin.encoding import double_sha256
 from pycoin.merkle import merkle
